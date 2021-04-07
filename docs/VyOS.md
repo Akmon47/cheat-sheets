@@ -35,7 +35,7 @@ vyos@vyos $
 | Action              | Command                                          |
 | :---                | :---                                             |
 | Set host name       | `set system host-name HOSTNAME`                  |
-| Set default gateway | `set system gateway-address 192.168.0.1`         |
+| Set default gateway | `set protocols static route 0.0.0.0/0 next-hop X.X.X.X`         |
 | Set DNS server      | `set system name-server 8.8.8.8`                 |
 | Turn on SSH access  | `set service ssh listen-address 0.0.0.0`         |
 | Keyboard layout[^1] | `sudo dpkg-reconfigure keyboard-configuration`   |
